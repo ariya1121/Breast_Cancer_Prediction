@@ -1,0 +1,86 @@
+/* Custom CSS Styling */
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #7b99ad; /* Light blue-gray background */
+    color: #d9f5fc; /* Light text */
+    margin: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Heading Styling */
+.container h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; /* White heading text */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Section Text Styling */
+.container p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Diagnosis Badge */
+.diagnosis {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff; /* White text */
+    background-color: #27ae60; /* Green background for benign */
+    padding: 0.2em 0.5em;
+    border-radius: 0.5rem;
+    margin: 15px 0;
+}
+
+.diagnosis.begnin {
+    background-color: #01db4b
+}
+
+.diagnosis.malignant {
+    background-color: #ff4b4b
+}
+/* Probability Section */
+.probability {
+    font-size: 14px;
+    color: #bdc3c7; /* Light gray text for labels */
+}
+
+/* Probability Value Styling */
+.probability-value {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    color: #ffffff; /* White text */
+}
+
+/* Benign Probability Value */
+.benign-value {
+    background-color: #2ecc71; /* Green background for benign probability */
+}
+
+/* Malignant Probability Value */
+.malignant-value {
+    background-color: #e24f3e; /* Red background for malignant probability */
+}
+
+/* Footer/Info Text */
+.footer-text {
+    font-size: 12px;
+    color: #bdc3c7; /* Light gray text */
+    margin-top: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
