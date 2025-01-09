@@ -1,4 +1,4 @@
-🩺 ##Breast Cancer Diagnosis Predictor
+🩺 Breast Cancer Diagnosis Predictor
 
 📊 Overview
 
@@ -14,29 +14,32 @@ The app was developed as an educational exercise using the Breast Cancer Wiscons
 
 🛠️ Installation
     
-To set up this application, you can directly install the dependencies using pip. Follow these steps:
-
+📊 Installation Instructions
 Clone the repository (or download the source code):
+
 bash
+Copy code
 git clone <repository_url>
 Navigate to the project directory:
 
 bash
+Copy code
 cd <project_directory>
-
 Install the required dependencies: It is recommended to use a virtual environment, but if you prefer not to, you can directly install the dependencies using pip:
-bash
+
+Copy code
 pip install -r requirements.txt
 This will install all necessary packages, including numpy, pandas, pickle5, plotly, scikit_learn, and streamlit.
 
 Run the application: After the dependencies are installed, you can start the app by running:
 
-bash
+arduino
+Copy code
 streamlit run app/main.py
-
 This will open the app in your default web browser. You can now input the measurements through the sidebar, and the app will provide the predicted diagnosis and a radar chart.
 
-💡 Code Explanation
+
+
 
 🧑‍💻 Model Creation
     The model is based on Logistic Regression. It uses the Breast Cancer dataset and performs the following steps:
