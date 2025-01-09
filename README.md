@@ -1,5 +1,5 @@
 
-# 🩺 Breast Cancer Diagnosis Predictor
+# 🩺 Breast Cancer Prediction
 
 
 ### 📊 Overview
