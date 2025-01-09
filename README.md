@@ -1,11 +1,10 @@
 🩺 Breast Cancer Diagnosis Predictor
 
 📊 Overview
-    The Breast Cancer Diagnosis Predictor is an application built using machine learning techniques to assist medical professionals in diagnosing breast cancer. The app takes in several measurements of breast masses and predicts whether they are benign or malignant. It provides a visual representation of the data through a radar chart and also displays the probability of the mass being benign or malignant. The app is designed to help streamline the process of diagnosing breast cancer based on scientific data.
+
+The Breast Cancer Diagnosis Predictor is an application built using machine learning techniques to assist medical professionals in diagnosing breast cancer. The app takes in several measurements of breast masses and predicts whether they are benign or malignant. It provides a visual representation of the data through a radar chart and also displays the probability of the mass being benign or malignant. The app is designed to help streamline the process of diagnosing breast cancer based on scientific data.
 
 The app was developed as an educational exercise using the Breast Cancer Wisconsin (Diagnostic) Data Set. Please note that the dataset and the app are intended solely for educational purposes and should not be used in clinical environments.
-
-A live version of the app can be found on Streamlit Community Cloud.
 
 ✨ Features
   - Data Visualization: Display a radar chart with three categories of data: mean, standard error, and worst-case measurements for each attribute.
@@ -14,18 +13,18 @@ A live version of the app can be found on Streamlit Community Cloud.
   - Interactive Sidebar: Allows the user to manually adjust the measurements for prediction.
 
 🛠️ Installation
-    To set up this application, you can directly install the dependencies using pip. Follow these steps:
+    
+To set up this application, you can directly install the dependencies using pip. Follow these steps:
 
 Clone the repository (or download the source code):
-
 bash
 git clone <repository_url>
 Navigate to the project directory:
 
 bash
 cd <project_directory>
-Install the required dependencies: It is recommended to use a virtual environment, but if you prefer not to, you can directly install the dependencies using pip:
 
+Install the required dependencies: It is recommended to use a virtual environment, but if you prefer not to, you can directly install the dependencies using pip:
 bash
 pip install -r requirements.txt
 This will install all necessary packages, including numpy, pandas, pickle5, plotly, scikit_learn, and streamlit.
