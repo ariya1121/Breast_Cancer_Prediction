@@ -4,7 +4,7 @@
 
 ### 📊 Overview
 
-The Breast Cancer Diagnosis Predictor is an application built using machine learning techniques to assist medical professionals in diagnosing breast cancer. The app takes in several measurements of breast masses and predicts whether they are benign or malignant. It provides a visual representation of the data through a radar chart and also displays the probability of the mass being benign or malignant. The app is designed to help streamline the process of diagnosing breast cancer based on scientific data.
+The Breast Cancer Prediction is an application built using machine learning techniques to assist medical professionals in diagnosing breast cancer. The app takes in several measurements of breast masses and predicts whether they are benign or malignant. It provides a visual representation of the data through a radar chart and also displays the probability of the mass being benign or malignant. The app is designed to help streamline the process of diagnosing breast cancer based on scientific data.
 
 The app was developed as an educational exercise using the Breast Cancer Wisconsin (Diagnostic) Data Set. Please note that the dataset and the app are intended solely for educational purposes and should not be used in clinical environments.
 
